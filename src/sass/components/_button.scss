@@ -1,10 +1,35 @@
 @use "../variables/colors";
 
 .button {
-  background-color: colors.$primary-color-dark;
-  border-radius: 15px;
-  padding: 15px;
+  background-color: rgb(26, 64, 49);
+  border-radius: 10px;
+  padding: 11px;
   color: #ffffff;
   font-weight: 600;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  &__image {
+    width: 14px;
+    &:hover {
+      background-color: #ffffff;
+      color: colors.$cart-button-color;
+      text-decoration: underline;
+      text-decoration-color: white;
+      text-underline-offset: 0.5rem;
+      text-decoration-thickness: 1px;
+    }
+  }
+
+  &:hover {
+    opacity: 70%;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+  }
 }
