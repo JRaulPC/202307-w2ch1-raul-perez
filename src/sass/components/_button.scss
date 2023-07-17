@@ -1,0 +1,10 @@
+@use "../variables/colors";
+
+.button {
+  background-color: colors.$primary-color-dark;
+  border-radius: 15px;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}

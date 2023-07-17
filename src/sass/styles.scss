@@ -1,2 +1,5 @@
 @use "base/globals";
-@use "components/main-component";
+@use "layouts/main-layouts";
+@use "components/product-container";
+@use "components/button";
+@use "components/prices-container";

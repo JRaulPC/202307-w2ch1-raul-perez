@@ -1,0 +1,9 @@
+@use "../base/globals";
+@use "../variables/colors";
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 25px;
+}
