@@ -1,0 +1,37 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  margin-bottom: 0;
+  font-family: "Montserrat", "Fraunces", sans-serif;
+}
+
+html {
+}
+
+a {
+  color: inherit;
+}
+
+input,
+button {
+  font: inherit;
+  border: none;
+}
+
+button {
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
