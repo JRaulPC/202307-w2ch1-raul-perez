@@ -1,0 +1,19 @@
+@use "../base/globals";
+@use "../variables/colors";
+
+.prices-container {
+  display: flex;
+  gap: 23px;
+  align-items: flex-end;
+
+  &__discount {
+    font-family: "Fraunces";
+    color: colors.$primary-color-dark;
+    font-size: 2rem;
+  }
+
+  &__real-price {
+    text-decoration: line-through;
+    align-self: center;
+  }
+}
