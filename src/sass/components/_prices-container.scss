@@ -15,5 +15,6 @@
   &__real-price {
     text-decoration: line-through;
     align-self: center;
+    color: colors.$neutral-color-secondary;
   }
 }

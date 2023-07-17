@@ -4,6 +4,26 @@
 .product-container {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 25px;
+  gap: 23px;
+  padding: 19px;
+  margin-top: 8px;
+
+  &__object {
+    color: colors.$neutral-color-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.875rem;
+  }
+
+  &__name {
+    font-family: "Fraunces";
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  &__description {
+    color: colors.$neutral-color-secondary;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
 }
