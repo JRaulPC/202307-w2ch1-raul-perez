@@ -1,0 +1,27 @@
+@use "../variables/colors";
+
+.product-page {
+  background-color: colors.$primary-color-light;
+  width: 100%;
+  min-height: 320px;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+
+.main-component {
+  border: 2px solid red;
+  border-radius: 15px;
+  width: 550px;
+  height: 450px;
+
+  &__image {
+    border-radius: 12px 0 0 12px;
+    width: 50%;
+    height: 100%;
+    max-height: inherit;
+    object-position: left;
+    margin: 0;
+  }
+}
